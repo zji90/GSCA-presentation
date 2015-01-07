@@ -2,3 +2,15 @@ base
 BiocInstaller
 devtools
 slidify
+gplots
+sp
+RColorBrewer
+rhdf5
+ggplot2
+reshape2
+Affyhgu133aExpr
+Affymoe4302Expr
+Affyhgu133Plus2Expr
+Affyhgu133A2Expr
+shiny
+GSCA
