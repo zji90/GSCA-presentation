@@ -93,7 +93,7 @@ github      :
 
 ## GSCA: Conjugate to GSEA
 
-<center><img src="fig/Fig3.png" width="100%"></center>
+<center><img src="fig/Fig3.png" width="70%"></center>
 
 ---
 
