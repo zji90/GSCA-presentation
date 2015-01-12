@@ -63,13 +63,15 @@ github      :
 
 * Analyzes the expression of a transcription factor (TF) and its target genes in PED to find biological contexts associated with the function of the TF.
 
-<center><img src="fig/chipped1.png" width="85%"></center>
+* Myc: a regulator gene that codes for a transcription factor.
+
+<center><img src="fig/chipped1.png" width="75%"></center>
 
 ---
 
 ## ChIP-PED
 
-* Leads to new discoveries: functional role of MYC in Ewing tumor.
+* Knockdown of MYC: substantially slower proliferation rate and decreased tumorigenicity.
 
 <center><img src="fig/chipped2.png" width="100%"></center>
 
@@ -93,11 +95,11 @@ github      :
 
 * Built upon 25,000+ pre-normalized and expert-annotated human and mouse gene expression samples with 1000+ biological contexts.
 
-* Takes any number of gene sets of any kind as input (ChIP-PED: one TF and its target genes).
+* Takes any number of gene sets of any kind as inputs (ChIP-PED: one TF and its target genes).
 
 * Allows users to identify biological contexts associated with highly complex gene expression patterns (ChIP-PED: basic and limited gene expression patterns).
 
-* Provides a powerful GUI for users to import gene sets, visualize data, tune parameters, perform cross-species analyses, and export analysis results and plots (ChIP-PED: only basic command-line tools).
+* Provides a powerful GUI for users to import gene sets, visualize data, tune parameters, perform cross-species analyses, and export analysis results and plots (ChIP-PED: only command-line tools).
 
 ---
 
@@ -149,6 +151,16 @@ github      :
 
 <br>
 
+* The Gli proteins are the effetors of Hedgehog signaling and have been shown to be involved in cell fate determination, proliferation and patterning in many cell types and organs during embryo development.
+
+* Nanog is a critical pluripotency marker that is expressed in embryonic stem cells.Neural stem cells also express Nanog and require secreted Hedgehog signaling to maintain proliferation and to regulate differentiation.
+
+---
+
+## Example II: Gli1 and Nanog
+
+<br>
+
 Gli1 high expression; Nanog low expression
 
 <center><img src="fig/Gli_high_Nanog_low.png" width="105%"></center>
@@ -180,7 +192,7 @@ Gli1 high expression; Nanog medium expression
 
 <br>
 
-Specify POI interactively:
+MYC, mitochondria biogenesis, glycolysis and fatty acid oxidation
 
 <center><img src="fig/MYC_interactive.png" width="105%"></center>
 
@@ -248,6 +260,15 @@ Top ranked biological contexts:
         install.packages("devtools")
       devtools::install_github("GSCA","zji90")
       ```
+      
+4. Launch GSCA GUI:
+
+      
+      ```r
+      library(GSCA)
+      GSCAui()
+      ```
+      
 
 ---
 
