@@ -21,7 +21,7 @@ github      :
 
 * An open source software package with a powerful Graphical User Interface (GUI).
 
-* Interactively visualize and explore gene and gene set activities in 25,000+ human and mouse biological contexts.
+* Interactively visualize and explore gene and gene set activities in 25,000+ human and mouse microarray samples.
 
 * Systematically identify biological contexts associated with specific gene set activity patterns. 
 
@@ -45,7 +45,7 @@ github      :
 
 <br>
 
-* Reuse of PED enables one to systematically examine gene or pathway’s activities in a broad spectrum of biological contexts, saving resources of generating the data.
+* Reuse of PED enables one to systematically examine gene or pathway’s activities in a broad spectrum of biological contexts, saving resources of generating similar data.
 
 * Several roadblocks to be removed before PED can be reused:
 
@@ -53,7 +53,7 @@ github      :
 
       + Data should be easy to visualize and retrieve.
 
-      + One needs efficient way to analyze the data and turn them into useful knowledge.
+      + One needs efficient way to analyze the data and turn them into useful biological knowledge.
 
 * None of these is trivial given the complexity, heterogeneity and size of the data.
 
@@ -83,7 +83,7 @@ github      :
 
 * Can only analyze one TF and its target genes.
 
-* The gene expression pattern is limited (TF+TG+; TF+TG-; TF-TG+; TF-TG-)
+* The gene expression pattern is basic and limited (TF+TG+; TF+TG-; TF-TG+; TF-TG-)
 
 * Only command-lines. Hard to use.
 
